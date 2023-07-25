@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 10px;
+  font-family: 'Edu SA Beginner', cursive;
 }
 
 .App-logo {

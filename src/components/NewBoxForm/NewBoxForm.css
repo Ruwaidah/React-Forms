@@ -1,0 +1,25 @@
+.NewBoxForm {
+    border-bottom: black solid 1px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 214, 175);
+}
+
+.NewBoxForm form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    font-weight: bold;
+
+} 
+
+.NewBoxForm form input[type="submit"] {
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
+    width: 60px;
+
+}

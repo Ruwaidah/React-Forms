@@ -1,0 +1,11 @@
+.Box {
+    margin: 4px;
+}
+
+.Box button {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
