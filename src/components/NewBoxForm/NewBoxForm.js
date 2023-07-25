@@ -59,7 +59,7 @@ const NewBoxForm = (props) => {
             onChange={onChange}
           />
         </label>
-        <input type="submit" />
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );

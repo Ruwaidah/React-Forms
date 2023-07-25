@@ -14,7 +14,7 @@ const BoxList = () => {
       <NewBoxForm addBox={addBox} />
       <div className="BoxList-div">
         {boxs.map((box, idx) => (
-          <Box box={box} idx={idx} deleteBox={deleteBox} />
+          <Box box={box} key={idx} idx={idx} deleteBox={deleteBox} />
         ))}
       </div>
     </div>

@@ -1,6 +1,5 @@
 import "./Box.css";
 const Box = (props) => {
-  console.log(props.box.width);
   return (
     <div className="Box">
       <div
@@ -16,7 +15,7 @@ const Box = (props) => {
         }}
         onClick={() => props.deleteBox(props.idx)}
       >
-        X
+        Delete
       </button>
     </div>
   );
