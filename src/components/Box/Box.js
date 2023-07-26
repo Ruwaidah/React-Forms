@@ -15,7 +15,7 @@ const Box = (props) => {
         }}
         onClick={() => props.deleteBox(props.idx)}
       >
-        Delete
+        X
       </button>
     </div>
   );

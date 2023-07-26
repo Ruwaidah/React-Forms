@@ -23,6 +23,6 @@ it("should add new box", () => {
   fireEvent.change(inputColor, { target: { value: "#7d3f3f" } });
   fireEvent.change(inputHeight, { target: { value: "200" } });
   fireEvent.click(btn);
-  deleteBtn = queryByText("Delete");
+  deleteBtn = queryByText("X");
   expect(deleteBtn).toBeInTheDocument();
 });
